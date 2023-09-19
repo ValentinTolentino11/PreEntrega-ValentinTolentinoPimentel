@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
@@ -21,14 +22,14 @@ const NavBar = () => {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="#action1">Servicios</Nav.Link>
-            <Nav.Link href="#action2">Colecciones</Nav.Link>
-            <Navbar.Brand href="#"> <Logo/> </Navbar.Brand>
-            <Nav.Link href="#action1">Nosotros</Nav.Link>
-            <Nav.Link href="#action2">Contactanos</Nav.Link>
+            <Link to="/servicios">Servicios</Link>
+            <Link to="/colecciones">Colecciones</Link>
+            <Navbar.Brand to="/"> <Logo/> </Navbar.Brand>
+            <Link to="/nosotros">Nosotros</Link>
+            <Link to="/contactanos">Contactanos</Link>
           </Nav>
           <Form className="d-flex">
-            < CartWidget/>
+          <Link to='/cart'> <CartWidget/> </Link>
           </Form>
         </Navbar.Collapse>
       </Container>
