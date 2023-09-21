@@ -1,35 +1,37 @@
 import React from 'react'
 import './App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import NavBar from '../src/Components/NavBar'
-import ItemListContainer from './Components/ItemListContainer';
+import NavBar from './Components/NavBar/NavBar';
 import Banner from '../src/Components/Banner';
-import Footer from '../src/Components/Footer';
-import Servicios from '../src/Components/Servicios';
-import Colecciones from '../src/Components/Colecciones';
-import Contactanos from '../src/Components/Contactanos';
-import Nosotros from '../src/Components/Nosotros';
-import Error from '../src/Components/Error';
-import ItemDetailContainer from './Components/ItemDetailContainer';
+import ItemListContainer from './Components/ItemListContainer/ItemListContainer';
+import ItemDetailContainer from './Components/ItemDetailContainer/ItemDetailContainer';
+import Error404 from './Components/Error404';
+import Footer from './Components/Footer';
 
 
-export default function App() {
-  <BrowserRouter>
-  <NavBar/>
-  <Routes>
-    <Route path='/Banner' element={<Banner/>}/>
-    <Route path='/' element={<ItemListContainer greeting="Acá van las nuevas cards"/>} />
-    <Route path='/item/:id' element={<ItemDetailContainer/>}/>
-    <Route path='/servicios' element={<Servicios/>}/>
-    <Route path='/colecciones' element={<Colecciones/>} />
-    <Route path='/contactanos' element={<Contactanos/>} />
-    <Route path='/nosotros' element={<Nosotros/>} />
-    <Route path='/footer' element={<Footer/>}/>
-    <Route path='*' element={<Error/>}/>
-  </Routes>
-  </BrowserRouter>
+function App() {
+  return (
+        <div >      
+          <BrowserRouter >
+            <NavBar />
+            <Banner/>
+            <Routes>
+              <Route path={"/"} element={<ItemListContainer />} />
+              <Route path={"/category/:id"} element={<ItemListContainer />} />
+              <Route path={"/item/:id"} element={<ItemDetailContainer/>} />
+              <Route path={"*"} element={<Error404 />} />
+            </Routes>
+            <Footer/>         
+          </BrowserRouter>
+          
+
+
+         
+        </div>
+  );
 }
 
+export default App;
 /*
 function App() {
   return (
@@ -42,4 +44,30 @@ function App() {
 
     </div>
   );
-}*/
+}
+---
+
+
+import Banner from '../src/Components/Banner';
+import Footer from '../src/Components/Footer';
+
+
+
+export default function App() {
+  <BrowserRouter>
+  <NavBar/>
+  <Routes>
+    <Route path='/Banner' element={<Banner/>}/>
+    <Route path='/' element={<ItemListContainer greeting="Acá van las nuevas cards"/>} />
+    <Route path='/item/:id' element={<ItemDetailContainer/>}/>
+    <Route path='/footer' element={<Footer/>}/>
+  </Routes>
+  </BrowserRouter>
+}
+
+
+
+
+
+
+*/
