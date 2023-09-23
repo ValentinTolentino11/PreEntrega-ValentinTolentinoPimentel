@@ -7,7 +7,7 @@ const Item = ({item}) => {
     <Link to={"/item/" + item.id} className='text-decoration-none'>
       <div className='container'>
         <div className='card border border-0'>
-          <img src= {item.img} className='card-img-top' alt={item.name}/>
+          <img src= {item.img} className='w-100 h-100 card-img-top' alt={item.name}/>
            <div className='card-body text-center'>
             <p className='card-text'>{item.name}</p>
            </div>

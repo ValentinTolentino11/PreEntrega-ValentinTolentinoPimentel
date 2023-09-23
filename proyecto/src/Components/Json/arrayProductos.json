@@ -1,10 +1,32 @@
 [
-    {"id":1, "name":"iPhone 13 pro", "description":"iPhone 13 Pro 512 GB - Grafito (Graphite)", "img":"/assets/remera-michis.png", "price":220000, "stock":10, "category":"remeras"},
-    {"id":2, "name":"Samsung S23 ", "description":"Celular Galaxy S23 Phantom black", "img":"https://samsungar.vtexassets.com/arquivos/ids/186560-800-auto?width=800&height=auto&aspect=true", "price":50000, "stock":10, "category":"remeras"},
-    {"id":3, "name":"Motorola G52", "description":"Celular libre Motorola moto G52 6GB 128GB azul", "img":"https://carrefourar.vtexassets.com/arquivos/ids/250996-1600-auto?v=637933178054400000&width=1600&height=auto&aspect=true", "price":120000, "stock":10, "category":"jean" },
-    {"id":4, "name":"Macbook air pro", "description":"MACBOOK PRO 16' M1 PRO CHIP 10-CORE CPU 16-CORE GPU - 1TB SSD – SILVER - APPLE", "img":"https://www.megatone.net/images/Articulos/zoom2x/200/01/MKT0274ETC.jpg", "price":2000, "stock":10, "category":"jean"},
-    {"id":5, "name":"Notebook Dell Inspiron", "description":"NOTEBOOK DELL INSPIRON 15-3511 INTEL CORE I3", "img":"https://medias.musimundo.com/medias/00677002-147995-147995-01-147995-01.jpg-size515?context=bWFzdGVyfGltYWdlc3w0MTgwNnxpbWFnZS9qcGVnfGhmMC9oMWMvMTA0NDk4NDAxNzcxODIvMDA2NzcwMDItMTQ3OTk1LTE0Nzk5NV8wMS0xNDc5OTVfMDEuanBnX3NpemU1MTV8N2Y5YmJlNmZmZDY0MzFjNTEwNWM4MTgyYWM5MjFkZTgwM2NmZDY1YzBkZjQ3YTkyNjM3ZjQzZTMzNDJiNGRjOQ", "price":1300, "stock":10, "category":"bermudas"},
-    {"id":6, "name":"Auricular Bluetooth Samsung", "description":"AURICULAR BLUETOOTH SAMSUNG SM-R177NZKAARO", "img":"https://medias.musimundo.com/medias/00432008-177681-177681-01.png-177681-01.png-size515?context=bWFzdGVyfGltYWdlc3w0NjY1MjB8aW1hZ2UvcG5nfGg5ZC9oN2YvMTA0MzQwNTk1NjcxMzQvMDA0MzIwMDgtMTc3NjgxLTE3NzY4MV8wMS5wbmctMTc3NjgxXzAxLnBuZ19zaXplNTE1fGU5OTg4ODBlOTAzNDBjNTJmYjQzZTQzNDc1ZDhmZjYwODc2ZjFiNmY2ZmUxMWNjMjBhMGQ2Nzk3NjcyZDViNmI", "price":100, "stock":10, "category":"bermudas"},
-    {"id":7, "name":"Auriculares Logitech Gamer ", "description":"AURICULAR GAMER LOGITECH G635", "img":"https://medias.musimundo.com/medias/00317174-140546-140546-01-140546-01.jpg-size515?context=bWFzdGVyfGltYWdlc3wzODkyN3xpbWFnZS9qcGVnfGg2My9oYjAvMTAzNzk4MDMxOTc0NzAvMDAzMTcxNzQtMTQwNTQ2LTE0MDU0Nl8wMS0xNDA1NDZfMDEuanBnX3NpemU1MTV8YjExZmRlYTBkM2Y0ZGFiOTQ5YjU5OTdlYzE2ZTBhOTFjM2M3YmIzZjJiYmZjYWZhNWI5ZjgxZmY1MTc4YzNmNw", "price":80, "stock":10, "category":"gorras"},
-    {"id":8, "name":"Apple AirPods", "description":"Apple Airpods 2", "img":"https://www.macstation.com.ar/img/productos/1407-apple-airpods-2.jpg", "price":500, "stock":10, "category":"gorras"}
+    {"id":1,
+    "name":"Remera Michis",
+    "description":"Remera algodon overzice",
+    "img": "/remeraMichi1.jpg",
+    "price":5000,
+    "stock":10,
+    "category":"remeras"},
+
+    {"id":2,
+    "name":"Remera Cat Black ",
+    "description":"Remera 100% algodon",
+    "img":"/assets/remera-michiblack.jpg",
+    "price":5000,
+    "stock":10,
+    "category":"remeras"},
+
+    {"id":3, "name":"Jean Moon", "description":"jean", "img":"/assets/jean-overzice.jpg",
+    "price":7000,
+    "stock":10,
+    "category":"jean" },
+
+    {"id":4, "name":"Macbook air pro", "description":"jean", "img":"/assets/jean-claro.jpg", "price":9000, "stock":10, "category":"jean"},
+
+    {"id":5, "name":"Bermuda recta", "description":"bermuda", "img":"/assets/bermuda-beige.jpg", "price":7300, "stock":10, "category":"bermudas"},
+
+    {"id":6, "name":"Bermuda Up", "description":"bermuda", "img":"/assets/bermuda-mesclilla.jpg", "price":7000, "stock":10, "category":"bermudas"},
+
+    {"id":7, "name":"Gorra Polo ", "description":"original", "img":"/assets/gorra-polo.jpg", "price":3500, "stock":10, "category":"gorras"},
+
+    {"id":8, "name":"Gorra", "description":"Varias", "img":"/assets/gorras-varias.jpg", "price":3000, "stock":10, "category":"gorras"}
 ]

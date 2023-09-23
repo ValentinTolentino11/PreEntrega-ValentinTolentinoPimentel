@@ -3,7 +3,7 @@ import banner from '../imagen.png'
 
 const Banner = () => {
   return (
-    <div><img src={banner}width="1349px" height="580px"/></div>
+    <div><img src={banner}width="1349px" height="580px" alt=''/></div>
 )
 }
 
