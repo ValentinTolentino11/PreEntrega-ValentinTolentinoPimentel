@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/PreEntrega-ValentinTolentinoPimentel/static/css/main.073c9b0a.css",
-    "main.js": "/PreEntrega-ValentinTolentinoPimentel/static/js/main.ca5fae38.js",
+    "main.css": "/PreEntrega-ValentinTolentinoPimentel/static/css/main.4958d577.css",
+    "main.js": "/PreEntrega-ValentinTolentinoPimentel/static/js/main.f7ead8f5.js",
     "static/js/787.319676fc.chunk.js": "/PreEntrega-ValentinTolentinoPimentel/static/js/787.319676fc.chunk.js",
     "static/media/imagen.png": "/PreEntrega-ValentinTolentinoPimentel/static/media/imagen.d64b32fa3691ad5c7ea1.png",
     "static/media/favicon.png": "/PreEntrega-ValentinTolentinoPimentel/static/media/favicon.238dbc48a90e4dba113a.png",
     "index.html": "/PreEntrega-ValentinTolentinoPimentel/index.html",
-    "main.073c9b0a.css.map": "/PreEntrega-ValentinTolentinoPimentel/static/css/main.073c9b0a.css.map",
-    "main.ca5fae38.js.map": "/PreEntrega-ValentinTolentinoPimentel/static/js/main.ca5fae38.js.map",
+    "main.4958d577.css.map": "/PreEntrega-ValentinTolentinoPimentel/static/css/main.4958d577.css.map",
+    "main.f7ead8f5.js.map": "/PreEntrega-ValentinTolentinoPimentel/static/js/main.f7ead8f5.js.map",
     "787.319676fc.chunk.js.map": "/PreEntrega-ValentinTolentinoPimentel/static/js/787.319676fc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.ca5fae38.js"
+    "static/css/main.4958d577.css",
+    "static/js/main.f7ead8f5.js"
   ]
 }
