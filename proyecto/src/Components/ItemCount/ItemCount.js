@@ -1,24 +1,20 @@
-import React from "react";
-import { useState } from "react";
+import React, { useState } from "react";
 
-const ItemCount = ({ stockItems }) => {
-  const [counter, setCounter] = useState(1);
-  const [stock, setStock] = useState(stockItems);
+const ItemCount = ({ stock, onQuantityChange }) => {
+  const [quantity, setQuantity] = useState(1);
 
   const incrementarStock = () => {
-    if (counter < stock) {
-      setCounter(counter + 1);
+    if (quantity < stock) {
+      setQuantity(quantity + 1);
+      onQuantityChange(quantity + 1);
     }
   };
 
   const decrementarStock = () => {
-    if (counter > 1) {
-      setCounter(counter - 1);
+    if (quantity > 1) {
+      setQuantity(quantity - 1);
+      onQuantityChange(quantity - 1);
     }
-  };
-
-  const actualizarStock = (nuevoStock) => {
-    setStock(nuevoStock);
   };
 
   return (
@@ -27,7 +23,7 @@ const ItemCount = ({ stockItems }) => {
         <div className="col-md-2">
           <div className="btn-group" role="group" aria-label="Basic outlined example">
             <button type="button" className="btn btn-outline-primary" onClick={decrementarStock}>-</button>
-            <button type="button" className="btn btn-outline-primary">{counter}</button>
+            <button type="button" className="btn btn-outline-primary">{quantity}</button>
             <button type="button" className="btn btn-outline-primary" onClick={incrementarStock}>+</button>
           </div>
         </div>
@@ -35,7 +31,6 @@ const ItemCount = ({ stockItems }) => {
       <div className="row">
         <div className="col-md-2">
           <p>Stock disponible: {stock}</p>
-          <button type="button" className="btn btn-outline-primary" onClick={() => actualizarStock(10)}>Actualizar Stock</button>
         </div>
       </div>
     </div>
